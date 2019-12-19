@@ -1,0 +1,14 @@
+CREATE DATABASE cadastro;
+USE cadastro;
+
+CREATE TABLE cadastro(
+IdCadastro
+Nome VARCHAR (100) NOT NULL,
+RG VARCHAR(20),
+CPF VARCHAR(20),
+Idade INT
+);
+CREATE TABLE cursos
+IdCursos INT IDENTITY PRIMARY KEY NOT NULL,
+curso VARCHAR(50) NOT NULL 
+
